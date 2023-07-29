@@ -3,7 +3,6 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": "./src",
-    "module": "es6",
     "paths": {
       "@/*": ["./*"]
     }

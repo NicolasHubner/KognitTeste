@@ -67,6 +67,7 @@ export default function Notification() {
             }
             const newData = allNotifications.filter(item => item.id !== id);
 
+            setAllNotifications(newData);
             setShowNotification(newData.slice(0, 10 * page));
             setLoading(false);
         }, 300);

@@ -1,3 +1,4 @@
+import Routes from '@/routes';
 import { StatusBar } from 'expo-status-bar';
 import { NativeBaseProvider, Box } from 'native-base';
 import { LogBox } from 'react-native';
@@ -6,10 +7,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 export default function App() {
     return (
         <NativeBaseProvider>
-            <SafeAreaView>
-                <Box>Hello world</Box>
-                <StatusBar style="auto" />
-            </SafeAreaView>
+            <Routes />
+            <StatusBar style="auto" />
         </NativeBaseProvider>
     );
 }

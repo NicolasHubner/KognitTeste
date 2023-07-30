@@ -29,11 +29,14 @@ Este projeto consiste em criar um aplicativo simples que compõe uma tela de log
 
 * Clone o projeto ou copie a pasta do projeto:
 ```
-    https://github.com/NicolasHubner/KognitTeste
+https://github.com/NicolasHubner/KognitTeste
 ```
+* Instale as dependências com o comando
 ```
-* Instale as dependências com o comando `yarn install`
+ yarn install
 ```
+* Rode o projeto com o comando:
 ```
-* Rode o projeto com o comando `yarn start`
+ `yarn start`
 ```
+* Posteriormente escolha qual dispositivo deseja rodar o projeto, se emulador ou dispositivo físico.

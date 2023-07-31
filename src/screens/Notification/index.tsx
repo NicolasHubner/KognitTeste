@@ -43,7 +43,7 @@ export default function Notification() {
             const data = await res.json();
 
             setAllNotifications(data);
-            setShowNotification(data.slice(0, 10));
+            setShowNotification(data.slice(0, 25));
         } catch (error) {
             Alert.alert('Erro ao carregar as notificações');
         } finally {
@@ -122,10 +122,22 @@ export default function Notification() {
                     // eslint-disable-next-line react/no-unstable-nested-components
                     ItemSeparatorComponent={() => <Divider />}
                     onEndReached={() => {
-                        const newData = allNotifications.slice(0, page * 10);
+                        const newData = allNotifications.slice(0, page * 25);
                         setShowNotification(newData);
-                        setPage(page + 1);
+                        if (allNotifications.length > page * 25) {
+                            return;
+                        } else {
+                            setPage(page + 1);
+                        }
                     }}
+                    onEndReachedThreshold={0.1}
+                    ListFooterComponent={() =>
+                        allNotifications.length > page * 25 ? (
+                            <View justifyContent={'center'} alignItems={'center'} my={2}>
+                                <Text fontSize={16}>Carregando mais notificações...</Text>
+                            </View>
+                        ) : null
+                    }
                 />
             )}
             {!loading && eraseAll ? (

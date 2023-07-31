@@ -2,9 +2,7 @@ import { Box, FormControl, Input, Stack, useTheme, Text, Button, Spinner } from 
 import { Ionicons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { useForm, Controller } from 'react-hook-form';
-import { ActivityIndicator } from 'react-native';
-import { StackNavigationProp } from '@react-navigation/stack';
-import { NavigationProp, RouteProp, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 import { INavigation } from '@/helpers/interfaces/INavigation';
 
 interface InputsSingInProps {

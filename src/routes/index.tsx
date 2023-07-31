@@ -1,9 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import * as Screens from '@/screens';
-import {
-    createNativeStackNavigator,
-    NativeStackNavigationOptions,
-} from '@react-navigation/native-stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Route } from './routes';
 
 const Stack = createNativeStackNavigator();

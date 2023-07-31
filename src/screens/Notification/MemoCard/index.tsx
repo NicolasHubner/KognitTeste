@@ -12,10 +12,11 @@ interface ListItemProps {
 const ListItem = memo(({ item, deleteNotification }: ListItemProps) => {
     return (
         <>
-            <View flexDirection={'row'} w={'100%'} h={150}>
+            <View flexDirection={'row'} w={'100%'} h={180} justifyContent={'center'}>
                 <View
                     w={'90%'}
                     alignSelf={{ base: 'center', md: 'flex-start' }}
+                    justifyContent={'center'}
                     my={2}
                     p={2}
                     h={'100%'}

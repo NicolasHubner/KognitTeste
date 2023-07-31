@@ -20,10 +20,10 @@ Este projeto consiste em criar um aplicativo simples que compõe uma tela de log
 
 ## Antes de rodar o projeto
 
-* É necessário ter o Node instalado na máquina
-* É necessário ter o Yarn instalado na máquina
-* É necessário ter o Expo instalado na máquina
-* Ter um emulador ou um dispositivo físico para rodar o projeto
+* É necessário ter o Node instalado na máquina;
+* É necessário ter o Yarn instalado na máquina;
+* É necessário ter o Expo instalado na máquina;
+* Ter um emulador ou um dispositivo físico para rodar o projeto;
 
 ## Como rodar o projeto
 

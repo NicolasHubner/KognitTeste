@@ -1,42 +1,42 @@
-# KognitTeste
+# KognitTest
 
-Este projeto consiste em criar um aplicativo simples que compõe uma tela de login e uma tela que demonstrará as notificações vindas do end point fornecido pela empresa Kognit em seu teste técnico.
+This project consists of creating a simple application that includes a login screen and a screen to display notifications from the endpoint provided by the company Kognit in their technical test.
 
-## Pontos
+## Highlights
 
-* Busquei trazer meus conhecimentos pensando na perfomace do aplicativo;
-* Utilizei o padrão de Design PAtterns para a aplicação;
-* Utilizei de Lint e Prettier para padronizar o código;
-* Criei configuração padrão com @, para faciltiar o import de arquivos;
+* I focused on applying my knowledge to optimize the performance of the application.
+* I used Design Patterns to structure the application.
+* I implemented Lint and Prettier to standardize the code.
+* I created a standard configuration with `@` to facilitate file imports.
 
-## Tecnologias
+## Technologies
 
 * React Native
-* Typescript
+* TypeScript
 * Native Base
 * React Navigation
-* React Hooks Form
-* Expo(Buscando rapidez no desenvolvimento e no teste da aplicação)
+* React Hook Form
+* Expo (to speed up the development and testing of the application)
 
-## Antes de rodar o projeto
+## Before running the project
 
-* É necessário ter o Node instalado na máquina;
-* É necessário ter o Yarn instalado na máquina;
-* É necessário ter o Expo instalado na máquina;
-* Ter um emulador ou um dispositivo físico para rodar o projeto;
+* Node must be installed on your machine.
+* Yarn must be installed on your machine.
+* Expo must be installed on your machine.
+* Have an emulator or physical device available to run the project.
 
-## Como rodar o projeto
+## How to run the project
 
-* Clone o projeto ou copie a pasta do projeto:
+* Clone the project or copy the project folder:
 ```
 https://github.com/NicolasHubner/KognitTeste
 ```
-* Instale as dependências com o comando
+* Install the dependencies with the command:
 ```
- yarn install
+yarn install
 ```
-* Rode o projeto com o comando:
+* Run the project with the command:
 ```
- `yarn start`
+yarn start
 ```
-* Posteriormente escolha qual dispositivo deseja rodar o projeto, se emulador ou dispositivo físico.
+* Then, choose whether to run the project on an emulator or a physical device.
